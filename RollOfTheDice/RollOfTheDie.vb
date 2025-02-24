@@ -19,10 +19,10 @@ Module RollOfTheDie
             rolls(sum - 2) += 1 'since the lowest possible number is 2 this that into account
         Next
 
-
         Console.WriteLine("Roll Results")
         Console.WriteLine(StrDup(91, "-"))
         Console.Write("Dice Value:   ")
+
         For i As Integer = 2 To 12
             Console.Write(i.ToString().PadLeft(4) & "  |")
         Next
