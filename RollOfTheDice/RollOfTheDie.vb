@@ -1,4 +1,11 @@
-﻿Module RollOfTheDie
+﻿'Alexis Villagran
+'RCET0265
+'Spring 2025'Roll of the Dice
+
+Option Compare Binary
+Option Strict On
+Option Explicit On
+Module RollOfTheDie
 
     Sub Main()
         Dim rolls(11) As Integer
